@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+.api{
+    height: 100vh;
+    width: 100%;
+    background-color: gray;
+    position: fixed;
+}
+.city{
+    height: fit-content;
+    width: 550px;
+    background: rgb(0,174, 174);
+    max-width: 45%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-box{
+    margin: 7px auto;
+}
+.input-box input{
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    font-weight: 900;
+    border-radius: 5px;
+    width: 60%;
+}
+.input-box button{
+    padding: 8px;
+    border: 0;
+    outline: 0;
+    font-weight: 900;
+    border-radius: 5px;
+    color: blueviolet;
+    cursor: pointer;
+}
+.w-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.local{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.local img{
+    height: 125px;
+    margin: 15px auto;
+}
+.hum img{
+    height: 25px;
+    margin-right: 8px;
+}
+.down{
+    margin: 25px;
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    
+}
